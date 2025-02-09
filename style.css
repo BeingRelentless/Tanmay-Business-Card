@@ -18,6 +18,7 @@ a{
     color: #ffbb90;
 }
 
+
 .business-card {
     width: 640px;
     height: 360px;
@@ -102,8 +103,8 @@ a{
 }
 
 .business-card .back .image img {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 2px solid #242424;
     border-radius: 50%;
@@ -128,11 +129,17 @@ a{
 }
 
 .business-card .back .info .contact {
-    line-height: 32px;
+    line-height: 40px;
     margin-block: 8px;
+    transition-duration: 0ms;
+    
+}
+.business-card .back .info .contact:hover{
+    font-size: larger;
+    transition-duration: 0ms;
 }
 
 .business-card .back .info .contact i {
-    font-size: 18px;
+    font-size: 25px;
     margin-right: 16px;
 }
